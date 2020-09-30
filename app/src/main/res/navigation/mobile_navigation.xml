@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.tbd.tbd.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/nav_sukien"
+        android:name="com.tbd.tbd.Sukien.SukienFragment"
+        android:label="Sự Kiện"
+        tools:layout="@layout/fragment_sukien" />
+    <fragment
+        android:id="@+id/nav_nganh"
+        android:name="com.tbd.tbd.Nganh.NganhFragment"
+        android:label="Ngành"
+        tools:layout="@layout/fragment_nganh" />
+    <fragment
+        android:id="@+id/nav_question"
+        android:name="com.tbd.tbd.Question.QuestionFragment"
+        android:label="Trắc Nghiệm"
+        tools:layout="@layout/fragment_question" />
+    <fragment
+        android:id="@+id/nav_tuyensinh"
+        android:name="com.tbd.tbd.TuyenSinh.TuyenSinhFragment"
+        android:label="Trắc Nghiệm"
+        tools:layout="@layout/fragment_question" />
+    <fragment
+        android:id="@+id/nav_sinhvien"
+        android:name="com.tbd.tbd.Sinhvien.SinhvienFragment"
+        android:label="Sinh Viên"
+        tools:layout="@layout/fragment_sinhvien" />
+</navigation>
